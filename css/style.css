@@ -38,6 +38,9 @@ ul {
     list-style: square;
     color: #fff;
 }
+li {
+    margin: 5px;
+}
 /* links start here */
 a:link {
     text-decoration: none;
@@ -49,8 +52,14 @@ a:visited {
     color: #00ffff
 }
 a:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #f00;
 }
 a:active {
+    text-decoration: none;
+    background-color: #000;
+    color: #00ffff;
 }
 #fillertext {
     margin: 5px;
@@ -60,6 +69,8 @@ a:active {
     height: auto;
     width: auto;
     float: left;
+    border-style: solid;
+    margin-right: 3px;
 }
 #sidebartext {
     margin: 5px;
@@ -67,4 +78,14 @@ a:active {
     text-align: center;
     background-color: #000;
     padding: 5px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+#hampic {
+    height: auto;
+    width: auto;
+    float: right;
+    margin-right: 5px;
+    border-style: solid;
 }
